@@ -39,8 +39,8 @@ export default function Page() {
 Choose a god, post your prayer, and get AI-powered prophecy in return. Or better yet — deploy your own deity, and see who dares to worship it.
 It's part temple, part social experiment, and entirely on-chain."
         image="/temple2.png"
-        url="https://nextjs-boilerplate-five-sigma-92.vercel.app/"
-        githubLink="https://github.com"
+        url="https://cyper-temple.vercel.app/"
+        githubLink="https://github.com/IanSsssss/cyper_temple"
         tags={["Next.js", "Solidity", "ethers.js"]}
     />
     <ProjectCard

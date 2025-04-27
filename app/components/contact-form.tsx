@@ -14,8 +14,8 @@ export default function GetInTouch() {
           </li>
           <li className="flex items-center gap-2">
             <FaGithub className="text-black" />
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-600">
-              github.com/yourgithub
+            <a href="https://github.com/IanSsssss" target="_blank" rel="noopener noreferrer" className="hover:underline text-gray-600">
+              github.com/IanSsssss
             </a>
           </li>
           <li className="flex items-center gap-2">

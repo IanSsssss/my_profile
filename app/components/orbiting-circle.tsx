@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-// import icons from "../icon"
+import { FaGithub } from "react-icons/fa6";
 
 export interface OrbitingCirclesProps
   extends React.HTMLAttributes<HTMLDivElement> {
@@ -70,7 +70,6 @@ export function OrbitingCircles({
     </>
   );
 }
-// import { OrbitingCircles } from "@/registry/magicui/orbiting-circles";
 
 export function OrbitingCirclesDemo() {
   return (
@@ -87,7 +86,7 @@ export function OrbitingCirclesDemo() {
         <icons.openaiIcon />
       </OrbitingCircles>
       <OrbitingCircles iconSize={30} radius={200} reverse speed={3}>
-        <icons.nextjsIcon />
+        <FaGithub size={24}/>
         <icons.ethIcon />
         <icons.rustIcon />
         <icons.dockerIcon />
