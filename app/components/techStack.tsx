@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card"
+import { Card } from "@/components/ui/card";
 
 const technologies = [
   {
@@ -11,19 +11,29 @@ const technologies = [
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Memcached", "ClickHouse"],
+    skills: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Memcached",
+      "ClickHouse",
+    ],
   },
   {
     category: "Other",
     skills: ["Docker", "Git", "Nginx", "GraphQL"],
   },
-]
+];
 
 export default function TechStack() {
   return (
     <div className="grid gap-6 md:grid-cols-4">
       {technologies.map((tech) => (
-        <Card key={tech.category}   className="bg-white p-5 rounded-lg shadow-md border border-gray-100 max-w-xs min-w-[220px] text-center">
+        <Card
+          key={tech.category}
+          className="bg-white p-5 rounded-lg shadow-md border border-gray-100 max-w-xs min-w-[220px] text-center"
+        >
           <h3 className="text-lg font-semibold mb-4">{tech.category}</h3>
           <div className="flex flex-wrap gap-2">
             {tech.skills.map((skill) => (
@@ -38,5 +48,5 @@ export default function TechStack() {
         </Card>
       ))}
     </div>
-  )
+  );
 }

@@ -72,9 +72,9 @@ export function Summary() {
   return (
     <div className="h-full items-center justify-center overflow-hidden pt-10 pl-24">
       <img
-          src="/avatar.jpg"
-          alt="avatar"
-          className="flex bottom-8 right-8 w-1/5"
+        src="/avatar.jpg"
+        alt="avatar"
+        className="flex bottom-8 right-8 w-1/5"
       />
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <p className="text-[3.5rem] font-semibold">
@@ -84,27 +84,43 @@ export function Summary() {
 
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <h2 className="mt-[.5rem] text-[1rem]">
-          <span className="text-[#5046e6]">Software engineer also a boxer, </span>
+          <span className="text-[#5046e6]">
+            Software engineer also a boxer,{" "}
+          </span>
         </h2>
       </BoxReveal>
 
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <div className="mt-6">
           <p>
-            -&gt; I&apos;ve spent 8 years building reliable backend systems for products at scale.
+            -&gt; I&apos;ve spent 8 years building reliable backend systems for
+            products at scale.
             <br />
-            -&gt; I 
-            <span className="font-semibold text-[#5046e6]"> write code</span>, 
-            <span className="font-semibold text-[#5046e6]"> design architectures</span>, 
-            <span className="font-semibold text-[#5046e6]"> explore things</span> 
+            -&gt; I
+            <span className="font-semibold text-[#5046e6]"> write code</span>,
+            <span className="font-semibold text-[#5046e6]">
+              {" "}
+              design architectures
+            </span>
+            ,
+            <span className="font-semibold text-[#5046e6]">
+              {" "}
+              explore things
+            </span>
             I don&apos;t know (yet). <br />
-            -&gt; Also know 
+            -&gt; Also know
             <span className="font-semibold text-[#5046e6]"> Dapp develop </span>
-             and 
-             <span className="font-semibold text-[#5046e6]"> frontend </span>
-              stuff <br />
+            and
+            <span className="font-semibold text-[#5046e6]"> frontend </span>
+            stuff <br />
             -&gt; And yes, I write
-            <span className="font-semibold text-[#5046e6]"> tests</span> 
+            <span className="font-semibold text-[#5046e6]">
+              {" "}
+              tests and docs
+            </span>
+            <br />
+            -&gt; Also a fan of gardening, traveling, German philosophy, and
+            psychoanalysis enthusiast
           </p>
         </div>
       </BoxReveal>

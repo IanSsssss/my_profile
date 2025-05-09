@@ -10,22 +10,26 @@ const timelineData: TimelineItem[] = [
   {
     date: "Apr, 2017",
     title: "Datatang - Data Engineer(Intern)",
-    description: "Wrote Python scripts to build web crawlers for data collection, cleaning, and integration tasks across multiple sources.",
+    description:
+      "Wrote Python scripts to build web crawlers for data collection, cleaning, and integration tasks across multiple sources.",
   },
   {
     date: "Aug, 2017",
     title: "daotech.io - Backend Engineer",
-    description: "Built a business platform based on Hyperledger Fabric and Node.js, including RESTful APIs, business logic, and deployment services.",
+    description:
+      "Built a business platform based on Hyperledger Fabric and Node.js, including RESTful APIs, business logic, and deployment services.",
   },
   {
     date: "Sep, 2019",
     title: "Advokate -  Backend Engineer(SmartContract)",
-    description: "Developed backend services and Solidity smart contracts for a decentralized NFT marketplace supporting primary and secondary sales.",
+    description:
+      "Developed backend services and Solidity smart contracts for a decentralized NFT marketplace supporting primary and secondary sales.",
   },
   {
     date: "Apr, 2022",
     title: "iHealth - Backend Lead",
-    description: "Led the redesign and optimization of backend architecture, improving system performance and reducing cloud costs",
+    description:
+      "Led the redesign and optimization of backend architecture, improving system performance and reducing cloud costs",
   },
 ];
 
@@ -38,7 +42,7 @@ export const Timeline = () => {
     <div className="w-full overflow-x-auto pb-24">
       <div
         className="relative mx-auto px-8"
-        style={{ width: `${minTimelineWidth}px`, height: '500px' }}
+        style={{ width: `${minTimelineWidth}px`, height: "500px" }}
       >
         {/* 中线 */}
         <div
@@ -63,8 +67,8 @@ export const Timeline = () => {
                   className="absolute w-6 h-6 bg-white border-2 border-orange-500 rounded-full flex items-center justify-center"
                   style={{
                     top: axisY - dotSize / 2,
-                    left: '50%',
-                    transform: 'translateX(-50%)',
+                    left: "50%",
+                    transform: "translateX(-50%)",
                     zIndex: 20,
                   }}
                 >
@@ -76,8 +80,8 @@ export const Timeline = () => {
                   className="absolute text-sm text-gray-500 font-medium"
                   style={{
                     top: isEven ? axisY - 40 : axisY + 20,
-                    left: '50%',
-                    transform: 'translateX(-50%)',
+                    left: "50%",
+                    transform: "translateX(-50%)",
                   }}
                 >
                   {item.date}
@@ -87,10 +91,12 @@ export const Timeline = () => {
                 <div
                   className="absolute w-0.5 bg-gray-200"
                   style={{
-                    height: '40px',
-                    top: isEven ? axisY + dotSize / 2 : axisY - 40 - dotSize / 2,
-                    left: '50%',
-                    transform: 'translateX(-50%)',
+                    height: "40px",
+                    top: isEven
+                      ? axisY + dotSize / 2
+                      : axisY - 40 - dotSize / 2,
+                    left: "50%",
+                    transform: "translateX(-50%)",
                   }}
                 />
 
@@ -98,9 +104,11 @@ export const Timeline = () => {
                 <div
                   className="absolute bg-white p-5 rounded-lg shadow-md border border-gray-100 max-w-xs min-w-[220px] text-center"
                   style={{
-                    top: isEven ? axisY + cardOffset - 50 : axisY - cardOffset - 180,
-                    left: '50%',
-                    transform: 'translateX(-50%)',
+                    top: isEven
+                      ? axisY + cardOffset - 50
+                      : axisY - cardOffset - 180,
+                    left: "50%",
+                    transform: "translateX(-50%)",
                   }}
                 >
                   <h3 className="text-lg font-semibold mb-2">{item.title}</h3>

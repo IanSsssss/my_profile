@@ -86,18 +86,15 @@ export function OrbitingCirclesDemo() {
         <icons.openaiIcon />
       </OrbitingCircles>
       <OrbitingCircles iconSize={30} radius={200} reverse speed={3}>
-        <FaGithub size={24}/>
+        <FaGithub size={24} />
         <icons.ethIcon />
         <icons.rustIcon />
         <icons.dockerIcon />
         <icons.mongodbIcon />
       </OrbitingCircles>
     </div>
-    
   );
 }
-
-
 
 const icons = {
   openaiIcon: () => (
