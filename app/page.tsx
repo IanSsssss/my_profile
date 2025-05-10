@@ -22,19 +22,23 @@ export default function Page() {
           <OrbitingCirclesDemo />
         </div>
       </div>
-      <section id="timeline" className="relative">
+      <section id="timeline" className="relative p-8">
+      <h2 className="p-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
+            Work Experience
+          </h2>
         <div className="flex justify-center p-8">
           <Timeline />
         </div>
       </section>
       <section className="flex justify-center p-8">
         <div className="container mx-auto px-2 md:px-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
+          <h2 className="p-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
             Tech Stack
           </h2>
           <TechStack />
         </div>
       </section>
+      <section className="flex justify-center p-8">
       <div className="container mx-auto px-2 md:px-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
           Project Expirence
@@ -60,6 +64,8 @@ It's part temple, part social experiment, and entirely on-chain."
           />
         </div>
       </div>
+      </section>
+      <section className="flex justify-center p-8">
       <div className="container mx-auto px-2 md:px-2">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
           My Book List
@@ -88,6 +94,7 @@ It's part temple, part social experiment, and entirely on-chain."
         <BookCardList category={category} />
         <div />
       </div>
+      </section>
       <section id="contact" className="justify-center flex mt-1">
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-2xl">
@@ -103,7 +110,7 @@ function Header() {
   return (
     <header className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Ian&apos;s Home</h1>
+        <h1 className="text-2xl font-bold">Ian&apos;s Profile</h1>
         <nav>
           <ul className="flex space-x-4">
             <li>

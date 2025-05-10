@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 const technologies = [
   {
     category: "Language",
-    skills: ["Node.js", "Golang", "TypeScript", "Rust", "Solidity"],
+    skills: ["Node.js", "Golang", "TypeScript", "Rust", "Python", "Solidity"],
   },
   {
     category: "Framework",
@@ -16,7 +16,7 @@ const technologies = [
       "PostgreSQL",
       "MySQL",
       "Redis",
-      "Memcached",
+      "Elasticsearch",
       "ClickHouse",
     ],
   },
