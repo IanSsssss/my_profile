@@ -43,9 +43,17 @@ export default function Page() {
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-left">
           Project Expirence
         </h2>
-        <div className="justify-center flex gap-29 md:grid-cols-2 lg:grid-cols-2 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
           <ProjectCard
-            title="Cyper Temple(🚧 Work in progress)"
+            title="Brawl CellStars"
+            description="This is a Sui Overflow 2025 Hackathon Work. Brawl CellStars,AI-Powered Battle Arena on SUI Blockchain Join the ultimate battle where human players and AI agents fight for dominance. Grow your cell, consume resources, and climb the leaderboard!"
+            image="/cellstar.png"
+            url="https://brawl-cellstars.vercel.app/"
+            githubLink="https://github.com/metahashbot/Sui-BrawlCellStars"
+            tags={["Python", "Reinforcement Learning"]}
+          />
+          <ProjectCard
+            title="Cyper Temple"
             description="CyperTemple is what happens when Web3 meets divine chaos.
 Choose a god, post your prayer, and get AI-powered prophecy in return. Or better yet — deploy your own deity, and see who dares to worship it.
 It's part temple, part social experiment, and entirely on-chain."
@@ -55,12 +63,12 @@ It's part temple, part social experiment, and entirely on-chain."
             tags={["Next.js", "Solidity", "ethers.js"]}
           />
           <ProjectCard
-            title="Task Management App"
-            description="A real-time task management application with team collaboration features."
-            image=""
-            url="https://github.com"
-            githubLink="https://github.com"
-            tags={["React", "Node.js", "Socket.io"]}
+            title="Hobby lib"
+            description="Hobby-Lib is an AI-driven personalized learning platform that automatically generates customized study plans based on user interests. The platform leverages Google Gemini AI model to provide structured course content, real-time learning reminders, and intelligent test assessments."
+            image="/hobby-lib.jpg"
+            url="https://github.com/IanSsssss/hobby-lib"
+            githubLink="https://github.com/IanSsssss/hobby-lib"
+            tags={["Python", "Langchain"]}
           />
         </div>
       </div>

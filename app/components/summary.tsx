@@ -109,7 +109,7 @@ export function Summary() {
             </span>
             I don&apos;t know (yet). <br />
             -&gt; Also know
-            <span className="font-semibold text-[#5046e6]"> Dapp develop </span>
+            <span className="font-semibold text-[#5046e6]"> AI agent ,Dapp develop </span>
             and
             <span className="font-semibold text-[#5046e6]"> frontend </span>
             stuff <br />
